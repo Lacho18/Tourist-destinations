@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Tourist-destinations/static/css/main.525f6a18.css",
+    "main.js": "/Tourist-destinations/static/js/main.45a73f59.js",
+    "static/js/787.28cb0dcd.chunk.js": "/Tourist-destinations/static/js/787.28cb0dcd.chunk.js",
+    "static/media/London.jpg": "/Tourist-destinations/static/media/London.e83213584e16d7b04298.jpg",
+    "static/media/Sofia.jpg": "/Tourist-destinations/static/media/Sofia.a0d48ad4ba858f67e753.jpg",
+    "static/media/Rome.jpg": "/Tourist-destinations/static/media/Rome.7771f610d2760f997850.jpg",
+    "static/media/Tokio.jpg": "/Tourist-destinations/static/media/Tokio.b60c2307b02fd9239fe5.jpg",
+    "index.html": "/Tourist-destinations/index.html",
+    "main.525f6a18.css.map": "/Tourist-destinations/static/css/main.525f6a18.css.map",
+    "main.45a73f59.js.map": "/Tourist-destinations/static/js/main.45a73f59.js.map",
+    "787.28cb0dcd.chunk.js.map": "/Tourist-destinations/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.525f6a18.css",
+    "static/js/main.45a73f59.js"
+  ]
+}
