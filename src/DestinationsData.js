@@ -10,7 +10,7 @@ const DESTINATIONS = [
         image: Rome,
         country: "Italy",
         town: "Rome",
-        information: "Rome is the capital of Italy. fvsdfsdfsfdsdfsdfsdfsdfsdfsdfdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd"
+        information: "Rome is the capital of Italy. fvsdfsdfsfdsdfsdfsdfsdfsdfsdfddddddddd dddddddddddddddddddddddddd ddddddddddddddd dddddddddddddd dddddddddddd dddddddd dddddddddddd"
     },
 
     {
@@ -18,7 +18,7 @@ const DESTINATIONS = [
         image: London,
         country: "",
         town: "",
-        information: ""
+        information: "Some text for tests in the borowser. I hope there wont be any bugs but i already know there would be bugs ;)."
     },
 
     {
