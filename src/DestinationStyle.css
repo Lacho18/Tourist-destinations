@@ -1,0 +1,110 @@
+body {
+    background-color: #e5cdb0;
+}
+
+.structureRoot {
+    position: static;
+    /*top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);*/
+    margin: 30px;
+    width: 28%;
+    height: 40vh;
+    display: inline-block;
+    border-style: solid;
+    border-width: 6px;
+    border-radius: 10px;
+    border-image: linear-gradient(45deg, #fff2cc, #ffbf00, #ffdf80);
+    background-image: linear-gradient(to right, #cc6600, #cc8800);
+    border-image-slice: 1;
+}
+
+.structureRoot > div {
+    width: 95%;
+}
+
+.structureRoot > div > * {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-47.5%, -45%);
+}
+
+.image-div {
+    height: 50%;
+}
+
+.image-div > img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    background: linear-gradient(45deg, rgba(255, 255, 255, 0) 0%, transparent 50%);
+}
+
+.description {
+    display: inline-flex;
+    text-align: center;
+    height: 20%;
+}
+
+.description > p {
+    margin-left: 50px;
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: translateX(3%);
+    font-size: 1.4vmax;
+}
+
+.destination-information, .cleareText {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 30px;
+    transform: translateX(2.3%);
+}
+
+.destination-information {
+    height: 21%;
+    overflow: hidden;
+    white-space: nowrap; 
+}
+
+.destination-information > p {
+    opacity: 0.6;
+    text-align: left;
+    top: 18%;
+}
+
+.cleareText {
+    overflow: visible;
+    height: 30%;
+    width: 120%;
+    animation: biggerDiv 1s ease;
+}
+
+.cleareText > p {
+    animation: getLarge 1s ease;
+    opacity: 1;
+    max-width: 100%;
+}
+
+@keyframes getLarge {
+    0% {
+        opacity: 0.6;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes biggerDiv {
+    0% {
+        height: 21%;
+        width: 100%;
+    }
+
+    100% {
+        height: 30%;
+        width: 120%;
+    }
+}
