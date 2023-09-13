@@ -1,0 +1,18 @@
+.onDivSelection {
+    position: static;
+    margin: 30px;
+    width: 28%;
+    height: 40vh;
+    display: inline-block;
+    border-style: solid;
+    border-width: 6px;
+    border-radius: 10px;
+    border-image: linear-gradient(45deg, #ffffcc, #ffcc66, #ffb366);
+    background-image: linear-gradient(to right, #ffcc00, #cccc00);
+    border-image-slice: 1;
+    box-shadow: 5px 5px 150px 35px rgba(255, 255, 255, 1);
+}
+
+.onDivSelection > details > summary {
+    color: rgba(255, 255, 255, 0.8);
+}

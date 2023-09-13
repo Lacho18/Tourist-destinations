@@ -1,22 +1,21 @@
 import DESTINATIONS from "./DestinationsData";
 import DestinationStructure from "./DestinationStructure";
-import ClickAnywhereListener from "./ClickListener";
 import { useState } from "react";
 
 function App() {
-  const [state, setState] = useState(false); 
+  const [boolean, setBoolean] = useState(false); 
+  const [someBool, setSomeBool] = useState(false);
 
   function onTextShown(bool) {
-    setState(bool);
+    setBoolean(bool);
   }
+
   return (
-    <ClickAnywhereListener asperji={"asperji"}>
     <div>
       {DESTINATIONS.map(indexValue => {
         return <DestinationStructure key={indexValue.id} {...indexValue} onTextShown={onTextShown}/>
       })}
     </div>
-    </ClickAnywhereListener>
   );
 }
 

@@ -1,17 +1,11 @@
 import "./DestinationStyle.css";
-import {useEffect} from "react";
+import "./DestinationStyle2.css";
+import ClickAnywhereListener from "./ClickListener";
 
 let textShown = false; 
 
 export default function DestinationStructure(props) {
     let infoDiv;
-
-    function mouseHandle() {
-        console.log(props.id);
-        infoDiv = document.getElementById("infoDiv");
-        infoDiv.classList.add('cleareText');
-        infoDiv.classList.remove('destination-information');
-    }
 
     function summaryHandle(key) {
         let object = document.getElementById(key + "summary");
@@ -32,24 +26,30 @@ export default function DestinationStructure(props) {
         }
     }
 
-    /*function textInfoHideAgain(key) {
-        let object = document.getElementById(key + "summary");
-        let divOfInfo = document.getElementById("infoDiv"+key);
-        object.style.visibility = "visible";
-        divOfInfo.classList.remove("divAppeare");
-    }*/
+    function mouseOverHandle(key) {
+        let rootDiv = document.getElementById('rootDiv'+key);
+        rootDiv.classList.remove('structureRoot');
+        rootDiv.classList.add('onDivSelection');
+    }
+
+    function mouseLeaveHandle(key) {
+        let rootDiv = document.getElementById('rootDiv'+key);
+        rootDiv.classList.remove('onDivSelection');
+        rootDiv.classList.add('structureRoot');
+    }
 
     let shortInfo = props.information.slice(0, 25);
     shortInfo += "....";
 
     return(
-        <div className="structureRoot">
+        //<ClickAnywhereListener idOfDiv={props.id} onMouseOverDiv={() => {mouseOverHandle(props.id);}}>
+        <div className="structureRoot" id={"rootDiv"+props.id} onMouseEnter={() => {mouseOverHandle(props.id);}} onMouseLeave={() => {mouseLeaveHandle(props.id);}}>
             <div className="image-div">
                 <img src={props.image} />
             </div>
             <div className="description">
-                <p>Country : {props.country}</p>
-                <p>Town : {props.town}</p>
+                <p>Country : <span>{props.country}</span></p>
+                <p>Town : <span>{props.town}</span></p>
             </div>
             <details>
                 <summary onClick={() =>  {summaryHandle(props.id);}} id={props.id + "summary"}>{shortInfo}</summary>
@@ -58,5 +58,6 @@ export default function DestinationStructure(props) {
                 </div>
             </details>
         </div>
+        //</ClickAnywhereListener>
     );
 }

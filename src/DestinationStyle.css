@@ -4,9 +4,6 @@ body {
 
 .structureRoot {
     position: static;
-    /*top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);*/
     margin: 30px;
     width: 28%;
     height: 40vh;
@@ -54,6 +51,11 @@ body {
     left: 0;
     transform: translateX(3%);
     font-size: 1.4vmax;
+}
+
+.description > p > span {
+    font-style: italic;
+    color: #990000;
 }
 
 summary {
