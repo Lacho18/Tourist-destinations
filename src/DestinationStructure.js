@@ -13,7 +13,6 @@ export default function DestinationStructure(props) {
 
         if(!textShown) {
             textShown = true;
-            props.onTextShown(textShown);
             object.innerHTML = "";
             object.style.color = "black";
             divOfInfo.classList.add("divAppeare");

@@ -10,7 +10,8 @@ const DESTINATIONS = [
         image: Rome,
         country: "Italy",
         town: "Rome",
-        information: "Rome is the capital of Italy. fvsdfsdfsfdsdfsdfsdfsdfsdfsdfddddddddd dddddddddddddddddddddddddd ddddddddddddddd dddddddddddddd dddddddddddd dddddddd dddddddddddd"
+        information: "Rome is the capital of Italy. fvsdfsdfsfdsdfsdfsdfsdfsdfsdfddddddddd dddddddddddddddddddddddddd ddddddddddddddd dddddddddddddd dddddddddddd dddddddd dddddddddddd",
+        continent: "Europe"
     },
 
     {
@@ -18,7 +19,8 @@ const DESTINATIONS = [
         image: London,
         country: "",
         town: "",
-        information: "Some text for tests in the borowser. I hope there wont be any bugs but i already know there would be bugs ;)."
+        information: "Some text for tests in the borowser. I hope there wont be any bugs but i already know there would be bugs ;).",
+        continent: "Europe"
     },
 
     {
@@ -26,7 +28,8 @@ const DESTINATIONS = [
         image: Sofia,
         country: "",
         town: "",
-        information: ""
+        information: "",
+        continent: "Europe"
     },
 
     {
@@ -34,7 +37,8 @@ const DESTINATIONS = [
         image: Tokio,
         country: "",
         town: "",
-        information: ""
+        information: "",
+        continent: "Asia"
     },
 
     {
@@ -42,7 +46,8 @@ const DESTINATIONS = [
         image: Prague,
         country: "",
         town: "",
-        information: ""
+        information: "",
+        continent: "Europe"
     }
 ];
 

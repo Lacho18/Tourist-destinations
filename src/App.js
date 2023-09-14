@@ -1,19 +1,35 @@
 import DESTINATIONS from "./DestinationsData";
 import DestinationStructure from "./DestinationStructure";
+import MenuBar from "./MenuBar";
 import { useState } from "react";
 
 function App() {
-  const [boolean, setBoolean] = useState(false); 
-  const [someBool, setSomeBool] = useState(false);
+  const [descriptionsArray, setDescriptionsArray] = useState(DESTINATIONS);
 
-  function onTextShown(bool) {
-    setBoolean(bool);
+  function MenuSelection(buttonId) {
+      setDescriptionsArray(prevDestinations => {
+        if(prevDestinations.length < DESTINATIONS.length) {
+            prevDestinations = DESTINATIONS;
+        }
+        let fileteredDestinations = prevDestinations.filter(indexValue => {
+          return indexValue.continent === buttonId ? true : false;
+        });
+        return fileteredDestinations;
+      })
+  }
+
+  function setAllDestinations() {
+    setDescriptionsArray(prevDestinations => {
+      prevDestinations = DESTINATIONS;
+      return prevDestinations;
+    });
   }
 
   return (
     <div>
-      {DESTINATIONS.map(indexValue => {
-        return <DestinationStructure key={indexValue.id} {...indexValue} onTextShown={onTextShown}/>
+      <MenuBar onMenuClickedButton={MenuSelection} onWorldClicked={setAllDestinations}/>
+      {descriptionsArray.map(indexValue => {
+        return <DestinationStructure key={indexValue.id} {...indexValue} />
       })}
     </div>
   );

@@ -14,6 +14,7 @@ body {
     border-image: linear-gradient(45deg, #fff2cc, #ffbf00, #ffdf80);
     background-image: linear-gradient(to right, #cc6600, #cc8800);
     border-image-slice: 1;
+    transform: translateX(18%);
 }
 
 .structureRoot > div {
@@ -68,6 +69,7 @@ summary {
 
 #infoText {
     position: relative;
+    min-width: 100%;
     width: 100%;
     height: 100%;
     margin: 7px;
@@ -79,7 +81,7 @@ summary {
     border-radius: 12px;
     overflow: auto;
     max-height: 100px;
-    width: 25%;
+    width: 90%;
     margin-left: 20px;
 }
 
