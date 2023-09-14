@@ -1,20 +1,24 @@
 {
   "files": {
-    "main.css": "/Tourist-destinations/static/css/main.3ac7e04c.css",
-    "main.js": "/Tourist-destinations/static/js/main.6fb2807b.js",
+    "main.css": "/Tourist-destinations/static/css/main.e238da15.css",
+    "main.js": "/Tourist-destinations/static/js/main.8790b86c.js",
     "static/js/787.28cb0dcd.chunk.js": "/Tourist-destinations/static/js/787.28cb0dcd.chunk.js",
     "static/media/London.jpg": "/Tourist-destinations/static/media/London.e83213584e16d7b04298.jpg",
     "static/media/Prague.jpg": "/Tourist-destinations/static/media/Prague.5b5f7e975f5489857c5d.jpg",
+    "static/media/Europe11.png": "/Tourist-destinations/static/media/Europe11.620b264421f4409ad29a.png",
+    "static/media/Africa.png": "/Tourist-destinations/static/media/Africa.66af145e449629b3666c.png",
     "static/media/Sofia.jpg": "/Tourist-destinations/static/media/Sofia.a0d48ad4ba858f67e753.jpg",
     "static/media/Rome.jpg": "/Tourist-destinations/static/media/Rome.7771f610d2760f997850.jpg",
     "static/media/Tokio.jpg": "/Tourist-destinations/static/media/Tokio.b60c2307b02fd9239fe5.jpg",
+    "static/media/Asia1.png": "/Tourist-destinations/static/media/Asia1.ca694a1f399937644b96.png",
+    "static/media/World1.png": "/Tourist-destinations/static/media/World1.bf23dcc318935d734fa3.png",
     "index.html": "/Tourist-destinations/index.html",
-    "main.3ac7e04c.css.map": "/Tourist-destinations/static/css/main.3ac7e04c.css.map",
-    "main.6fb2807b.js.map": "/Tourist-destinations/static/js/main.6fb2807b.js.map",
+    "main.e238da15.css.map": "/Tourist-destinations/static/css/main.e238da15.css.map",
+    "main.8790b86c.js.map": "/Tourist-destinations/static/js/main.8790b86c.js.map",
     "787.28cb0dcd.chunk.js.map": "/Tourist-destinations/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3ac7e04c.css",
-    "static/js/main.6fb2807b.js"
+    "static/css/main.e238da15.css",
+    "static/js/main.8790b86c.js"
   ]
 }
