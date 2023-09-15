@@ -1,6 +1,7 @@
 import DESTINATIONS from "./DestinationsData";
 import DestinationStructure from "./DestinationStructure";
 import MenuBar from "./MenuBar";
+import SearchBar from "./SearchBar";
 import { useState } from "react";
 
 function App() {
@@ -24,9 +25,11 @@ function App() {
       return prevDestinations;
     });
   }
+  let putItOnTheCode;
 
   return (
     <div>
+      <SearchBar />
       <MenuBar onMenuClickedButton={MenuSelection} onWorldClicked={setAllDestinations}/>
       {descriptionsArray.map(indexValue => {
         return <DestinationStructure key={indexValue.id} {...indexValue} />

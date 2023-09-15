@@ -15,6 +15,7 @@ body {
     background-image: linear-gradient(to right, #cc6600, #cc8800);
     border-image-slice: 1;
     transform: translateX(18%);
+    margin-top: 50px;
 }
 
 .structureRoot > div {

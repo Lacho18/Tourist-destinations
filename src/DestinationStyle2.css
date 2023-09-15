@@ -80,3 +80,47 @@
         transform: rotate(360deg);
     }
 }
+
+.menu-root-onApearense, .menu-root-onApearense > * > *, #swipeMenuId.ignore{
+    animation: apeareMenuDiv 1s ease;
+}
+
+@keyframes apeareMenuDiv {
+    0% {
+        width: 0%;
+        border: none;
+    }
+
+    100% {
+        width: 5%;
+        border: none;
+    }
+}
+
+.menu-root-onDisapearense, .menu-root-onDisapearense > * > *, #swipeMenuId.ignore{
+    animation: disApeareMenuDiv 1s ease;
+}
+
+.menu-root-onDisapearense > ul > button {
+    border: none;
+}
+
+@keyframes disApeareMenuDiv {
+    0% {
+        width: 5%;
+        border: none;
+    }
+
+    100% {
+        width: 0%;
+        border: none;
+    }
+}
+
+#swipeMenuId {
+    position: absolute;
+    width: 7%;
+    height: 15%;
+    top: 0;
+    left: 1%;
+}
