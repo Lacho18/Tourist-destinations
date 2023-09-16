@@ -2,11 +2,15 @@ import DESTINATIONS from "./DestinationsData";
 import DestinationStructure from "./DestinationStructure";
 import MenuBar from "./MenuBar";
 import SearchBar from "./SearchBar";
+import DestinationContentStructure from "./DestinationContent/DestinationContentStructure";
 import { useState } from "react";
 
+let previusText = "";
 function App() {
   const [descriptionsArray, setDescriptionsArray] = useState(DESTINATIONS);
+  const [selectedDestination, setSelectedDestination] = useState(false);
 
+  //function that clear the options by selected continent
   function MenuSelection(buttonId) {
       setDescriptionsArray(prevDestinations => {
         if(prevDestinations.length < DESTINATIONS.length) {
@@ -19,23 +23,56 @@ function App() {
       })
   }
 
-  function setAllDestinations() {
-    setDescriptionsArray(prevDestinations => {
-      prevDestinations = DESTINATIONS;
-      return prevDestinations;
-    });
+  //function that set all the elements in the array in case of mising values
+  async function setAllDestinations() {
+    setDescriptionsArray(DESTINATIONS);
   }
-  let putItOnTheCode;
 
-  return (
-    <div>
-      <SearchBar />
-      <MenuBar onMenuClickedButton={MenuSelection} onWorldClicked={setAllDestinations}/>
-      {descriptionsArray.map(indexValue => {
-        return <DestinationStructure key={indexValue.id} {...indexValue} />
-      })}
-    </div>
-  );
+  //function that handle the search bar
+  async function seachHandle(information) {
+    searchByTown(information);
+  }
+
+  //function syrching in the array by its town content
+  async function searchByTown(townRegex) {
+    if (townRegex === '') {
+      setAllDestinations();
+      return;
+    }
+  
+    const regex = new RegExp(townRegex, 'i');
+  
+    const filteredDestinations = DESTINATIONS.filter((destination) =>
+      regex.test(destination.town)
+    );
+  
+    setDescriptionsArray(filteredDestinations);
+  }
+
+  //function that handle the click of a destination by a user
+  function onSelectedDestination() {
+    console.log("raz dva tri nomer edno si tiiii!");
+    setSelectedDestination(true);
+  }
+
+  if(!selectedDestination) {
+    return (
+      <div>
+        <SearchBar getSearchText ={seachHandle}/>
+        <MenuBar onMenuClickedButton={MenuSelection} onWorldClicked={setAllDestinations}/>
+        {descriptionsArray.map(indexValue => {
+          return <DestinationStructure key={indexValue.id} {...indexValue} selected={onSelectedDestination}/>
+        })}
+      </div>
+    );
+  }
+  else {
+    return(
+      <div>
+        <DestinationContentStructure />
+      </div>
+    );
+  }
 }
 
 export default App;

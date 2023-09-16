@@ -37,12 +37,16 @@ export default function DestinationStructure(props) {
         rootDiv.classList.add('structureRoot');
     }
 
+    function selectedObject() {
+        props.selected();
+    }
+
     let shortInfo = props.information.slice(0, 25);
     shortInfo += "....";
 
     return(
         //<ClickAnywhereListener idOfDiv={props.id} onMouseOverDiv={() => {mouseOverHandle(props.id);}}>
-        <div className="structureRoot" id={"rootDiv"+props.id} onMouseEnter={() => {mouseOverHandle(props.id);}} onMouseLeave={() => {mouseLeaveHandle(props.id);}}>
+        <div className="structureRoot" id={"rootDiv"+props.id} onMouseEnter={() => {mouseOverHandle(props.id);}} onMouseLeave={() => {mouseLeaveHandle(props.id);}} onClick={selectedObject}>
             <div className="image-div">
                 <img src={props.image} />
             </div>

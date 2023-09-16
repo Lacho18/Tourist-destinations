@@ -5,6 +5,8 @@ import Africa from "./Images/Africa.png";
 import World from "./Images/World1.png";
 import SwipeIcon from "./Images/Swipe-icon11.png";
 
+import { useEffect } from "react";
+
 export default function MenuBar(props) {
     let animationIsGoing = false;
     let menuBarShown = false;
@@ -35,6 +37,9 @@ export default function MenuBar(props) {
     function menuAppearenceFunction() {
         let menuDiv = document.getElementsByClassName('menu-root');
         let imageOfMenu = document.getElementById('swipeMenuId');
+        if(menuDiv[0].style.display === 'none') {
+            menuDiv[0].style.display = 'block';
+        }
         if(!menuBarShown) {
             imageOfMenu.style.left = "1%";
             menuDiv[0].style.width = '5%';
@@ -44,12 +49,17 @@ export default function MenuBar(props) {
         }
         else {
             menuDiv[0].style.width = '0%';
-            imageOfMenu.style.left = "-2%";
+            imageOfMenu.style.left = "-4%";
             menuDiv[0].classList.add('menu-root-onDisapearense');
             menuDiv[0].classList.remove('menu-root-onApearense');  
             menuBarShown = false;  
         }
     }
+
+    useEffect(() => {
+        let menuDiv = document.getElementsByClassName('menu-root');
+        menuDiv[0].style.display = 'none';
+    }, [])
 
     return(
         <div>
