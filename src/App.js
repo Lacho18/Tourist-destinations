@@ -51,7 +51,6 @@ function App() {
 
   //function that handle the click of a destination by a user
   function onSelectedDestination() {
-    console.log("raz dva tri nomer edno si tiiii!");
     setSelectedDestination(true);
   }
 
