@@ -1,24 +1,35 @@
 {
   "files": {
-    "main.css": "/Tourist-destinations/static/css/main.e238da15.css",
-    "main.js": "/Tourist-destinations/static/js/main.8790b86c.js",
+    "main.css": "/Tourist-destinations/static/css/main.de7b6c8b.css",
+    "main.js": "/Tourist-destinations/static/js/main.7109ab67.js",
     "static/js/787.28cb0dcd.chunk.js": "/Tourist-destinations/static/js/787.28cb0dcd.chunk.js",
     "static/media/London.jpg": "/Tourist-destinations/static/media/London.e83213584e16d7b04298.jpg",
+    "static/media/Sydney.png": "/Tourist-destinations/static/media/Sydney.fca3d3cf6ede43b57511.png",
     "static/media/Prague.jpg": "/Tourist-destinations/static/media/Prague.5b5f7e975f5489857c5d.jpg",
+    "static/media/Canberra.jpg": "/Tourist-destinations/static/media/Canberra.4907388d20ae3b484916.jpg",
+    "static/media/Kakadu_National_Park.jpg": "/Tourist-destinations/static/media/Kakadu_National_Park.7bdb1dc57562ef9920f3.jpg",
+    "static/media/Barselona.jpg": "/Tourist-destinations/static/media/Barselona.8d3cb1336e83e11eb1c9.jpg",
+    "static/media/Atina.jpg": "/Tourist-destinations/static/media/Atina.c22c8ccd2e6c6d6f801c.jpg",
     "static/media/Europe11.png": "/Tourist-destinations/static/media/Europe11.620b264421f4409ad29a.png",
     "static/media/Africa.png": "/Tourist-destinations/static/media/Africa.66af145e449629b3666c.png",
     "static/media/Sofia.jpg": "/Tourist-destinations/static/media/Sofia.a0d48ad4ba858f67e753.jpg",
+    "static/media/Belogradchik.jpg": "/Tourist-destinations/static/media/Belogradchik.dfa5f8c306b5e2ca805a.jpg",
+    "static/media/Pekin.jpg": "/Tourist-destinations/static/media/Pekin.b3ebb07380e53be24a40.jpg",
+    "static/media/Bucharest.jpg": "/Tourist-destinations/static/media/Bucharest.ebedcbb754e128974f9b.jpg",
     "static/media/Rome.jpg": "/Tourist-destinations/static/media/Rome.7771f610d2760f997850.jpg",
     "static/media/Tokio.jpg": "/Tourist-destinations/static/media/Tokio.b60c2307b02fd9239fe5.jpg",
+    "static/media/Bratislava.jpg": "/Tourist-destinations/static/media/Bratislava.e4ee4645449d2b785e75.jpg",
     "static/media/Asia1.png": "/Tourist-destinations/static/media/Asia1.ca694a1f399937644b96.png",
+    "static/media/VelikoTarnovo.jpg": "/Tourist-destinations/static/media/VelikoTarnovo.9dbe7f7c77198c1b4633.jpg",
+    "static/media/magnifyingGlass.png": "/Tourist-destinations/static/media/magnifyingGlass.493eaf37d6b6c570b527.png",
     "static/media/World1.png": "/Tourist-destinations/static/media/World1.bf23dcc318935d734fa3.png",
     "index.html": "/Tourist-destinations/index.html",
-    "main.e238da15.css.map": "/Tourist-destinations/static/css/main.e238da15.css.map",
-    "main.8790b86c.js.map": "/Tourist-destinations/static/js/main.8790b86c.js.map",
+    "main.de7b6c8b.css.map": "/Tourist-destinations/static/css/main.de7b6c8b.css.map",
+    "main.7109ab67.js.map": "/Tourist-destinations/static/js/main.7109ab67.js.map",
     "787.28cb0dcd.chunk.js.map": "/Tourist-destinations/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e238da15.css",
-    "static/js/main.8790b86c.js"
+    "static/css/main.de7b6c8b.css",
+    "static/js/main.7109ab67.js"
   ]
 }
