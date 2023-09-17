@@ -1,0 +1,14 @@
+.one-hotel {
+    margin-bottom: 30px;
+    border: 1px solid black;
+    position: static;
+    transform: translate(25%, 25%);
+    width: 70%;
+    border-radius: 20px;
+}
+
+.one-hotel > img {
+    width: 40%;
+    height: 90%;
+    margin: 20px;
+}

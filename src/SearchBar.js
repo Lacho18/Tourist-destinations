@@ -9,11 +9,9 @@ export default function SearchBar(props) {
     }
 
     return(
-        <header>
-            <div className="search-bar">
-                <input type="text" id='textField' onChange={textHandle}/>
-                <img id="buttonOfTextInput" src={magnifyingGlass}/>
-            </div>
-        </header>
+        <div className="search-bar">
+            <input type="text" id='textField' onChange={textHandle}/>
+            <img id="buttonOfTextInput" src={magnifyingGlass}/>
+        </div>
     );
 }

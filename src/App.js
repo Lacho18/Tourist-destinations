@@ -5,7 +5,8 @@ import SearchBar from "./SearchBar";
 import DestinationContentStructure from "./DestinationContent/DestinationContentStructure";
 import { useState } from "react";
 
-let previusText = "";
+let currentIndex = 0;
+
 function App() {
   const [descriptionsArray, setDescriptionsArray] = useState(DESTINATIONS);
   const [selectedDestination, setSelectedDestination] = useState(false);
@@ -50,8 +51,8 @@ function App() {
   }
 
   //function that handle the click of a destination by a user
-  function onSelectedDestination() {
-    console.log("raz dva tri nomer edno si tiiii!");
+  function onSelectedDestination(componentID) {
+    currentIndex = componentID;
     setSelectedDestination(true);
   }
 
@@ -69,7 +70,7 @@ function App() {
   else {
     return(
       <div>
-        <DestinationContentStructure />
+        <DestinationContentStructure  {...DESTINATIONS[currentIndex - 1]} onBack = {() => setSelectedDestination(false)}/>
       </div>
     );
   }
