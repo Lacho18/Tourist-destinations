@@ -5,7 +5,7 @@ import Hotel from "../Images/ContentImages/Buttons/Hotel.png";
 import Landmarks from "../Images/ContentImages/Buttons/landmarks.png";
 import CONTENT from "./DestinetionContent";
 
-import HotelComponent from "./HotelComponent.js";
+import HotelComponent from "./hotelComponent";
 
 export default function DestinationContentStructure(props) {
     
