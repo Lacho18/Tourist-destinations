@@ -71,3 +71,9 @@ header > p {
     left: 100%;
     transform: translateX(-70%);
 }
+
+.side-divs-endText {
+    font-size: 1.8vmax;
+    position: relative;
+    transform: translate(30%, 140%);
+}

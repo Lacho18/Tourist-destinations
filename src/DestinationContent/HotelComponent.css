@@ -9,6 +9,14 @@
 
 .one-hotel > img {
     width: 40%;
-    height: 90%;
+    height: 100%;
     margin: 20px;
+}
+
+.hotel-info {
+    position: relative;
+    transform: translate(50%, -100%);
+    width: 30%;
+    display: inline-block;
+    font-size: 1.2vmax;
 }
