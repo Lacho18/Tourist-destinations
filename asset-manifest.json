@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Tourist-destinations/static/css/main.de7b6c8b.css",
-    "main.js": "/Tourist-destinations/static/js/main.7109ab67.js",
+    "main.css": "/Tourist-destinations/static/css/main.a3927567.css",
+    "main.js": "/Tourist-destinations/static/js/main.cbc16c85.js",
     "static/js/787.28cb0dcd.chunk.js": "/Tourist-destinations/static/js/787.28cb0dcd.chunk.js",
     "static/media/London.jpg": "/Tourist-destinations/static/media/London.e83213584e16d7b04298.jpg",
     "static/media/Sydney.png": "/Tourist-destinations/static/media/Sydney.fca3d3cf6ede43b57511.png",
@@ -23,13 +23,14 @@
     "static/media/VelikoTarnovo.jpg": "/Tourist-destinations/static/media/VelikoTarnovo.9dbe7f7c77198c1b4633.jpg",
     "static/media/magnifyingGlass.png": "/Tourist-destinations/static/media/magnifyingGlass.493eaf37d6b6c570b527.png",
     "static/media/World1.png": "/Tourist-destinations/static/media/World1.bf23dcc318935d734fa3.png",
+    "static/media/Hotel.png": "/Tourist-destinations/static/media/Hotel.01c45bb889ecf15c3154.png",
     "index.html": "/Tourist-destinations/index.html",
-    "main.de7b6c8b.css.map": "/Tourist-destinations/static/css/main.de7b6c8b.css.map",
-    "main.7109ab67.js.map": "/Tourist-destinations/static/js/main.7109ab67.js.map",
+    "main.a3927567.css.map": "/Tourist-destinations/static/css/main.a3927567.css.map",
+    "main.cbc16c85.js.map": "/Tourist-destinations/static/js/main.cbc16c85.js.map",
     "787.28cb0dcd.chunk.js.map": "/Tourist-destinations/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.de7b6c8b.css",
-    "static/js/main.7109ab67.js"
+    "static/css/main.a3927567.css",
+    "static/js/main.cbc16c85.js"
   ]
 }
