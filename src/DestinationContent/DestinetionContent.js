@@ -3,7 +3,7 @@ const CONTENT = [
     {
         id: 1,
         imageOfTown: "",
-        shortInfo: "",
+        shortInfo: "Rome is the capital city of Italy. It is also the capital of the Lazio region, the centre of the Metropolitan City of Rome, and a special comune named Comune di Roma Capitale. With 2,860,009 residents in 1,285 km2, Rome is the country's most populated comune and the third most populous city in the European Union by population within city limits. The Metropolitan City of Rome, with a population of 4,355,725 residents, is the most populous metropolitan city in Italy. Its metropolitan area is the third-most populous within Italy. Rome is located in the central-western portion of the Italian Peninsula, within Lazio (Latium), along the shores of the Tiber. Vatican City (the smallest country in the world) is an independent country inside the city boundaries of Rome, the only existing example of a country within a city. Rome is often referred to as the City of Seven Hills due to its geographic location, and also as the Eternal City. Rome is generally considered to be the cradle of Western civilization and Christian culture, and the centre of the Catholic Church.",
         hotels: [{
             hotelImage: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/0c/e6/3a/entrance-hotel-artemide.jpg?w=1200&h=-1&s=1",
             link: "https://www.tripadvisor.com/Hotel_Review-g187791-d205044-Reviews-Hotel_Artemide-Rome_Lazio.html",
@@ -64,7 +64,7 @@ const CONTENT = [
     {
         id: 2,
         imageOfTown: "",
-        shortInfo: "",
+        shortInfo: "London is the capital and largest city of England and the United Kingdom, with a population of just under 9 million. It stands on the River Thames in south-east England at the head of a 50-mile estuary down to the North Sea and has been a major settlement for two millennia. The City of London, its ancient core and financial centre, was founded by the Romans as Londinium and retains its medieval boundaries. The City of Westminster, to the west of the City of London, has for centuries hosted the national government and parliament. Since the 19th century, the name London also refers to the metropolis around this core, historically split among the counties of Middlesex, Essex, Surrey, Kent, and Hertfordshire, which since 1965 has largely comprised Greater London, which is governed by 33 local authorities and the Greater London Authority.",
         hotels: [{
             hotelImage: "https://cf.bstatic.com/xdata/images/hotel/max1280x900/329065860.jpg?k=3f1ece75b2b3e5f3199ef79e4786dc55ab2a9cc2e3ee444f9d5b9806551dc464&o=&hp=1",
             link: "https://www.booking.com/hotel/gb/park-plaza-westminster-bridge.bg.html?label=london-nyt3LOXxKeGqW61_5c5bPAS528791908258%253Apl%253Ata%253Ap13060%253Ap2%253Aac%253Aap%253Aneg%253Afi%253Atiaud-1110454565707%253Akwd-12080521%253Alp1001448%253Ali%253Adec%253Adm%253Appccp%253DUmFuZG9tSVYkc2RlIyh9Yf5EcukO1MOGLSSAuId8ToA&sid=8f6c86756b151501ab994e426c01a675&aid=303948&ucfs=1&arphpl=1&dest_id=-2601889&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=popularity&srpvid=de995c96c7600033&srepoch=1695215409&from_sustainable_property_sr=1&from=searchresults&activeTab=main",
@@ -125,7 +125,7 @@ const CONTENT = [
     {
         id: 3,
         imageOfTown: "",
-        shortInfo: "",
+        shortInfo: "Sofia Bulgarian: София, romanized: Sofiya, is the capital and largest city of Bulgaria. It is situated in the Sofia Valley at the foot of the Vitosha mountain in the western parts of the country. The city is built west of the Iskar river, and has many mineral springs, such as the Sofia Central Mineral Baths. It has a humid continental climate. Being in the centre of the Balkans, it is midway between the Black Sea and the Adriatic Sea, and closest to the Aegean Sea.",
         hotels: [{
             hotelImage: "https://www.grandhotelsofia.bg/wp-content/uploads/2022/06/ghs.jpg",
             link: "https://www.grandhotelsofia.bg/?gclid=CjwKCAjwsKqoBhBPEiwALrrqiBe5-YodRGX29ihVJsokkkkK20hOdievClPR-GTBEbHgIyOgDydajBoCVaEQAvD_BwE&gclsrc=aw.ds",
@@ -186,7 +186,7 @@ const CONTENT = [
     {
         id: 4,
         imageOfTown: "",
-        shortInfo: "",
+        shortInfo: "Tokyo, officially the Tokyo Metropolis, is the capital and the most populous prefecture of Japan. Tokyo's metropolitan area (including neighboring prefectures as well as Tochigi, Gunma and Ibaraki; 13,452 square kilometers or 5,194 square miles) is the most populous in the world, with an estimated 37.468 million residents as of 2018; although this number has been gradually decreasing since then, the prefecture itself has a population of 14.09 million people while the prefecture's central 23 special wards have a population of 9.73 million. Located at the head of Tokyo Bay, the prefecture forms part of the Kantō region on the central coast of Honshu, Japan's largest island. Tokyo serves as Japan's economic center and is the seat of both the Japanese government and the Emperor of Japan.",
         hotels: [{
             hotelImage: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/e5/e3/bb/lobby-at-villa-fontaine.jpg?w=1100&h=-1&s=1",
             link: "https://www.tripadvisor.com/Hotel_Review-g1066454-d20063623-Reviews-Villa_Fontaine_Premier_Haneda_Airport-Ota_Tokyo_Tokyo_Prefecture_Kanto.html",
@@ -247,7 +247,7 @@ const CONTENT = [
     {
         id: 5,
         imageOfTown: "",
-        shortInfo: "",
+        shortInfo: "Prague is the capital and largest city of the Czech Republic, and the historical capital of Bohemia. On the Vltava river, Prague is home to about 1.3 million people. The city has a temperate oceanic climate, with relatively warm summers and chilly winters. Prague is a political, cultural, and economic hub of central Europe, with a rich history and Romanesque, Gothic, Renaissance and Baroque architectures. It was the capital of the Kingdom of Bohemia and residence of several Holy Roman Emperors, most notably Charles IV.",
         hotels: [{
             hotelImage: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/27/c3/fb/15/the-mozart-prague.jpg?w=1100&h=-1&s=1",
             link: "https://www.tripadvisor.com/Hotel_Review-g274707-d543175-Reviews-The_Mozart_Prague-Prague_Bohemia.html",
@@ -308,7 +308,7 @@ const CONTENT = [
     {
         id: 6,
         imageOfTown: "",
-        shortInfo: "",
+        shortInfo: "Canber is the capital city of Australia. Founded following the federation of the colonies of Australia as the seat of government for the new nation, it is Australia's largest inland city and the eighth-largest Australian city overall. The city is located at the northern end of the Australian Capital Territory at the northern tip of the Australian Alps, the country's highest mountain range. As of June 2022, Canberra's estimated population was 456,692.",
         hotels: [{
             hotelImage: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/a3/92/ed/avenue-hotel-canberra.jpg?w=1200&h=-1&s=1",
             link: "https://www.tripadvisor.com/Hotel_Review-g255057-d7180018-Reviews-Avenue_Hotel_Canberra-Canberra_Australian_Capital_Territory.html",
@@ -369,7 +369,7 @@ const CONTENT = [
     {
         id: 7,
         imageOfTown: "",
-        shortInfo: "",
+        shortInfo: "Sydney is the capital city of the state of New South Wales, and the most populous city in Australia. Located on Australia's east coast, the metropolis surrounds Sydney Harbour and extends about 70 km towards the Blue Mountains to the west, Hawkesbury to the north, and the Royal National Park and Macarthur to the south and south-west. Greater Sydney consists of 658 suburbs, spread across 33 local government areas. Residents of the city are colloquially known as Sydneysiders. The estimated population in June 2022 was 5,297,089; the city is home to approximately 66% of the state's population. The city's nicknames include the Emerald City and the Harbour City.",
         hotels: [{
             hotelImage: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/68/59/b7/rooftop-terrace.jpg?w=1200&h=-1&s=1",
             link: "https://www.tripadvisor.com/Hotel_Review-g255060-d21228643-Reviews-Little_National_Hotel_Sydney-Sydney_New_South_Wales.html",

@@ -33,7 +33,7 @@ export default function DestinationContentStructure(props) {
             </header>
             <div className="info-and-image">
                 <img src={props.image} />
-                <p>Some info and large text.</p>
+                <p style={{color : "black"}}>{CONTENT[props.id - 1].shortInfo}</p>
             </div>
             <div className="side-divs" id="hotelsDiv">
                 <p className="side-divs-titels">Here are some of the most rated hotels in {props.town}</p>
